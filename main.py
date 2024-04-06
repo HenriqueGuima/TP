@@ -12,5 +12,6 @@ df_copy = data_cleaning.data_cleaning(df)
 # split the data into training and testing
 df_train, df_test = data_split.data_split(df_copy)
 
+
 # print(df_test.shape)
 # print(df_train)
